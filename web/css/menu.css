@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-brand{width:70px;height:50px;background-size:50px}
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{color:#00833c;text-transform:uppercase;font-size:10.2px;text-decoration:none;}
+.nav-tabs{display:inline-block;border-bottom:none;padding-top:15px;font-weight:700}
+.nav-tabs > li > a,.nav-tabs > li > a:hover,.nav-tabs > li > a:focus,.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover,.nav-tabs > li.active > a:focus{border:none;border-radius:0}
+.nav-list{border-bottom:1px solid #eee}
+.nav-list > li{width:11.28%}
+.nav-list > li:last-child{border-right:1px solid #eee}
+.nav-list > li > a:hover{text-decoration:none}
+.nav-list > li > a > span{display:block;text-transform:uppercase;color:#888b8c;line-height: 13px;}
+.team-icon{margin-bottom:5px;}
+.mega-dropdown{position:static!important}
+.mega-dropdown-menu{text-align:center;width:100%;border-radius:0;font-family: 'latoregular';margin:0;padding:0;}
+.navbar-default .navbar-nav > li.active > a:before,.navbar-default .navbar-nav > li > a:before{-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;}
+.navbar-default .navbar-nav > li.active > a:before,.navbar-default .navbar-nav > li > a:hover:before{content:"";height:1px;
+	background: #00833c;
+background: -moz-linear-gradient(left, #00833c 1%, #00833c 13%, #76b71e 13%, #76b71e 73%, #fec524 73%, #fec524 100%);
+background: -webkit-linear-gradient(left, #00833c 1%,#00833c 13%,#76b71e 13%,#76b71e 73%,#fec524 73%,#fec524 100%);
+background: linear-gradient(to right, #00833c 1%,#00833c 13%,#76b71e 13%,#76b71e 73%,#fec524 73%,#fec524 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00833c', endColorstr='#fec524',GradientType=1 );width: 71px;
+position: absolute;
+left: 0px;
+right: 0px;
+margin: 0px auto;
+bottom: 14px;}
+.mega-dropdown-menu .list-inline > li{padding:0;}
+.mega-dropdown-menu li a{font-size:11px;font-family: 'latoregular';color:#888b8c;display: block;padding:20px 15px 9px 15px;}
+.navbar-default {
+    background-color: #fff !important;
+    border-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .active > a{background:none;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color:#00833C;
+	background:none; 
+}
+.team-icon{width: 39px;
+height: 39px;
+display: inline-block;}
+.navbar{margin-bottom:0;border-radius:0;border: 0;}
+.mega-dropdown .dropdown-menu{background:none;border:0;box-shadow:none;}
+.mega-dropdown .dropdown-menu .nav-list{border-bottom:0;box-shadow:none;}
+.mega-dropdown .nav-list > li{border:0;}
+.mega-dropdown li{-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;}
+.mega-dropdown li.bp-link a i{font-size: 16px;padding-top: 8px;color:#C9C9C9;}
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+

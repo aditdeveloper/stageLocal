@@ -1,0 +1,86 @@
+.inner-bnr .carousel-caption {bottom:10%;}
+.inner-bnr .carousel-caption h3 {font-size:50px; padding:5px 50px;}
+
+.top-select {position:absolute; top:5%; right:8%;}
+
+.main-product {background:#fff;}
+
+.pro-box {margin:5px 0;}
+.pro-box h2 {margin:0; padding:5px 10px; font-size:18px; color:#00833c; position:relative;}
+.pro-box h2:after {margin:0; padding:0; content:""; height:1px; width:100%; position:absolute; bottom:0; left:0;
+background: #00833c; /* Old browsers */
+background: -moz-linear-gradient(left, #00833c 90%, #76bd1d 90%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #00833c 90%,#76bd1d 90%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #00833c 90%,#76bd1d 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00833c', endColorstr='#76bd1d',GradientType=1 ); /* IE6-9 */}
+.pro-box img {width:100%;}
+
+.marcas-title {margin:5px 0; padding:15px 23px; font-size:14px; color:#949494; background:#f5f5f5;}
+.marcas {margin:25px 0;}
+.marcas h2 {margin:0; padding:5px 10px; font-size:14px; color:#00833c; min-height:60px;}
+.marcas p {text-transform:uppercase; color:#babbbb;}
+.detail-title {margin:10px 0 20px; padding:0; font-size:42px; color:#00833c; font-family:'latolight';}
+.back-btn {margin:10px 0 0 0; padding:10px 15px; float:right; background:#f5f5f5; color:#00833c; font-size:15px; text-transform:uppercase;}
+.txt-block {margin:10px 0; padding:0; font-size:20px; color:#7c7c7c; text-transform:uppercase; font-weight:normal; font-family:'latoregular'; display:inline-block; line-height:30px;}
+.txt-content p {margin:0 0 40px 0; padding:0; color:#7c7c7c; font-size:16px; line-height:25px;}
+
+
+/*select box css*/
+.top-select .bootstrap-select .btn-default {border-radius:50px; -webkit-border-radius:50px;}
+.top-select .btn-default {color: #333; background-color: #f5f5f5; border-color: #f5f5f5;}
+.top-select:after {margin:0; padding:0; content:""; position:absolute; top:-1px; left:12%; height:1px; width:66%;z-index: 100;text-align: center;
+margin: 0 auto;
+left: 0;
+right: 0;
+* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00833c+34,fec524+34,fec524+68,76bd1d+68 */
+background: #00833c; /* Old browsers */
+background: -moz-linear-gradient(left, #00833c 34%, #fec524 34%, #fec524 68%, #76bd1d 68%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #00833c 34%,#fec524 34%,#fec524 68%,#76bd1d 68%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #00833c 34%,#fec524 34%,#fec524 68%,#76bd1d 68%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00833c', endColorstr='#76bd1d',GradientType=1 ); /* IE6-9 */}
+.top-select .bootstrap-select.btn-group .dropdown-toggle .bs-caret {background:none; color:#00823c;}
+.top-select .form-control {border-radius:50px; -webkit-border-radius:50px;min-width: 110px;}
+.top-select .bootstrap-select.open .dropdown-toggle, .top-select .btn-group.open .dropdown-toggle:hover {background:#f5f5f5; color:#ffc600; border-color: #f5f5f5;border-top-left-radius:17px;border-top-right-radius:17px;border-bottom-left-radius:0;border-bottom-right-radius:0;}
+.top-select .bootstrap-select.open {border-radius:18px 18px 0 0;background:#F5F5F5;}
+.top-select .bootstrap-select .dropdown-toggle:hover, .top-select .bootstrap-select .dropdown-toggle:focus {border-color: #f5f5f5 !important;}
+.top-select .dropdown-menu {background:#f5f5f5 !important; border-color: #f5f5f5 !important;}
+.top-select .bootstrap-select.btn-group .dropdown-toggle .filter-option {font-size:12px; padding-top:3px;}
+
+/*select box css End*/
+
+
+
+@media (min-width:768px){
+
+}
+
+
+@media (max-width:767px){
+
+.inner-bnr .carousel-caption {bottom:0; padding-bottom:0;}
+.inner-bnr .carousel-caption h3 {font-size:17px; padding:5px 50px;}
+.select-box {margin:10px 0;}
+}
+
+@media (min-width:992px){
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+
+.inner-bnr .carousel-caption {bottom:14%; padding-bottom:0;}
+.inner-bnr .carousel-caption h3 {font-size:33px; padding:5px 50px;}
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+
+}
+
+
+@media (max-width:320px){
+	
+}
